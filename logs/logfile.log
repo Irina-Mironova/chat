@@ -1,0 +1,564 @@
+INFO  2021-07-17 00:12:18 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-17 00:14:07 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-17 00:15:16 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-17 00:16:01 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-17 00:16:32 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-17 00:16:49 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-17 00:17:18 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-17 23:43:43 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-17 23:43:43 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-17 23:44:11 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-17 23:44:11 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-17 23:44:11 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь " + c.getUsername()
+INFO  2021-07-17 23:44:52 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: gfdgf
+INFO  2021-07-17 23:44:56 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: gurugre
+INFO  2021-07-17 23:44:57 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: rertre
+INFO  2021-07-17 23:44:58 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: 2321321
+INFO  2021-07-17 23:45:01 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-17 23:45:01 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь " + c.getUsername()
+INFO  2021-07-17 23:45:01 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-17 23:45:01 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-17 23:45:40 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-17 23:45:40 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth nik@mail.ru 1452
+INFO  2021-07-17 23:45:40 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь " + c.getUsername()
+INFO  2021-07-17 23:45:49 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: bgf
+INFO  2021-07-17 23:45:51 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: rrre
+INFO  2021-07-17 23:45:53 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: tyy
+INFO  2021-07-17 23:45:56 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-17 23:45:56 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь " + c.getUsername()
+INFO  2021-07-17 23:45:56 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-17 23:45:56 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент nik отключился
+INFO  2021-07-17 23:49:59 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-17 23:49:59 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-17 23:50:28 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-17 23:50:28 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth nik@mail.ru 1452
+INFO  2021-07-17 23:50:28 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь " + c.getUsername()
+INFO  2021-07-17 23:50:30 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: ytry
+INFO  2021-07-17 23:50:31 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: rere
+INFO  2021-07-17 23:50:32 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: htry
+INFO  2021-07-17 23:50:33 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: 
+INFO  2021-07-17 23:50:35 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-17 23:50:35 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь " + c.getUsername()
+INFO  2021-07-17 23:50:35 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-17 23:50:35 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент nik отключился
+INFO  2021-07-17 23:52:55 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-17 23:52:55 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-17 23:53:29 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-17 23:53:29 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth nik@mail.ru 1452
+INFO  2021-07-17 23:53:29 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь " + c.getUsername()
+INFO  2021-07-17 23:53:32 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: 3e3
+INFO  2021-07-17 23:53:33 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: 3w221
+INFO  2021-07-17 23:53:50 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-17 23:53:50 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь " + c.getUsername()
+INFO  2021-07-17 23:53:50 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-17 23:53:50 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент nik отключился
+INFO  2021-07-18 15:50:42 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 15:50:42 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 15:51:06 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 15:51:06 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 15:51:06 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 15:51:09 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 15:51:09 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 15:51:09 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 15:51:09 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 15:52:47 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 15:52:47 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 15:52:47 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 15:52:50 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: dewe
+INFO  2021-07-18 15:52:51 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 15:52:51 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 15:52:51 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 15:52:51 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 15:58:03 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 15:58:03 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 15:58:22 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 15:58:22 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 15:58:22 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 15:58:25 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 15:58:25 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 15:58:25 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 15:58:25 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:00:27 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:00:27 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:00:27 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:00:28 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:00:28 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:00:28 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:00:28 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:01:52 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:01:52 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:01:52 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:01:54 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:01:54 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:01:54 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:01:54 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:02:29 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:02:29 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:02:29 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:02:30 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:02:30 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:02:30 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:02:30 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:03:40 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:03:40 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:03:40 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:03:41 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:03:41 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:03:41 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:03:41 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:04:32 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:04:32 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:04:32 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:04:34 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:04:34 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:04:34 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:04:34 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:05:26 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 16:05:26 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 16:05:57 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:05:57 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:05:57 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:06:49 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:06:49 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:06:49 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:06:49 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:08:12 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 16:08:12 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 16:08:31 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:08:31 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:08:31 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:08:33 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: e ewewq
+INFO  2021-07-18 16:08:34 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: ewqe
+INFO  2021-07-18 16:08:35 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:08:35 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:08:35 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:08:35 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:14:01 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:14:01 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:14:01 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:14:08 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /auth dwd dwq
+INFO  2021-07-18 16:14:10 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:14:10 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:14:10 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:14:10 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:15:04 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:15:04 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:15:04 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:15:08 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: uyiu
+INFO  2021-07-18 16:15:09 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:15:09 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:15:09 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:15:09 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:16:23 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:16:23 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:16:23 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:16:24 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:16:24 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:16:24 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:16:24 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:17:27 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:17:27 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:17:27 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:18:31 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:18:31 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:18:31 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:18:31 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:24:10 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 16:24:10 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 16:24:34 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:24:34 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:24:34 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:24:35 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:24:35 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:24:35 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:24:35 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:25:53 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:25:53 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:25:53 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:25:54 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: fewfew
+INFO  2021-07-18 16:25:56 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:25:56 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:25:56 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:25:56 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:26:53 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:26:53 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:26:53 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:26:55 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: dsd
+INFO  2021-07-18 16:26:57 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:26:57 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:26:57 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:26:57 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:27:39 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:27:39 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:27:39 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:27:42 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:27:42 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:27:42 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:27:42 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:28:02 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:28:02 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:28:02 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:28:04 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:28:04 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:28:04 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:28:04 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:33:13 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 16:33:13 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 16:33:31 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:33:31 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:33:31 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:33:32 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:33:32 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:33:32 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:33:32 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:37:48 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:37:48 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:37:48 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:37:49 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:37:49 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:37:49 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:37:49 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:39:27 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:39:27 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:39:27 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:39:27 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:39:27 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:39:27 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:39:31 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:39:31 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth  
+INFO  2021-07-18 16:39:38 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:39:38 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:39:38 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:39:38 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:39:38 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:40:13 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:40:13 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:40:13 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:40:13 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:40:13 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:40:13 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:40:24 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:40:24 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:40:24 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:40:24 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:40:24 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:40:24 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:47:00 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:47:00 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:47:00 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:47:02 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:47:02 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:47:02 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:47:02 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:47:40 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:47:40 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:47:40 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:47:41 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:47:41 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:47:41 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:47:41 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:48:09 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:48:09 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:48:09 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:48:10 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:48:10 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:48:10 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:48:10 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:48:53 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:48:53 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:48:53 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:48:55 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:48:55 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:48:55 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:48:55 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:49:26 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:49:26 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:49:26 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:49:28 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:49:28 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:49:28 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:49:28 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:51:28 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:51:28 [pool-2-thread-5] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:51:28 [pool-2-thread-5] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:51:30 [pool-2-thread-5] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:51:30 [pool-2-thread-5] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:51:30 [pool-2-thread-5] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:51:30 [pool-2-thread-5] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:51:54 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:51:55 [pool-2-thread-5] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:51:55 [pool-2-thread-5] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:52:05 [pool-2-thread-5] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:52:05 [pool-2-thread-5] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:52:05 [pool-2-thread-5] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:52:05 [pool-2-thread-5] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:54:32 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 16:54:32 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 16:54:52 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:54:52 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:54:52 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:54:54 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:54:54 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:54:54 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:54:54 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 16:57:22 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:57:22 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth nik@mail.ru 1452
+INFO  2021-07-18 16:57:22 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь nik
+INFO  2021-07-18 16:57:29 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:57:29 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь nik
+INFO  2021-07-18 16:57:29 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:57:29 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент nik отключился
+INFO  2021-07-18 16:58:22 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 16:58:22 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 16:58:22 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 16:58:24 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 16:58:24 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 16:58:24 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 16:58:24 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:01:45 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:01:45 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:01:45 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:01:47 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:01:47 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:01:47 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:01:47 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:04:27 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 17:04:27 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 17:04:46 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:04:46 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:04:46 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:04:48 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:04:48 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:04:48 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:04:48 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:06:39 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 17:06:39 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 17:06:58 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:06:58 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:06:58 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:07:00 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:07:00 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:07:00 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:07:00 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:08:34 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:08:34 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:08:34 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:08:36 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:08:36 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:08:36 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:08:36 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:09:01 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:09:01 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:09:01 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:09:09 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:09:09 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth nik@mail.ru 1452
+INFO  2021-07-18 17:09:09 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь nik
+INFO  2021-07-18 17:09:13 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:09:13 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь nik
+INFO  2021-07-18 17:09:13 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:09:13 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент nik отключился
+INFO  2021-07-18 17:09:40 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:09:40 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth nik@mail.ru 1452
+INFO  2021-07-18 17:09:40 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь nik
+INFO  2021-07-18 17:09:44 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:09:44 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь nik
+INFO  2021-07-18 17:09:44 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:09:44 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент nik отключился
+INFO  2021-07-18 17:09:51 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: bnjh
+INFO  2021-07-18 17:09:54 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: fe
+INFO  2021-07-18 17:10:02 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:10:02 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth nik@mail.ru 1452
+INFO  2021-07-18 17:10:02 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь nik
+INFO  2021-07-18 17:10:06 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:10:06 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь nik
+INFO  2021-07-18 17:10:06 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:10:06 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент nik отключился
+INFO  2021-07-18 17:10:08 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:10:08 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:10:08 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:10:08 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:10:22 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 17:10:22 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 17:10:48 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:10:48 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth nik@mail.ru 1452
+INFO  2021-07-18 17:10:48 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь nik
+INFO  2021-07-18 17:10:56 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:10:56 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь nik
+INFO  2021-07-18 17:10:56 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:10:56 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент nik отключился
+INFO  2021-07-18 17:11:37 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 17:11:37 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 17:11:49 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:11:49 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth nik@mail.ru 1452
+INFO  2021-07-18 17:11:49 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь nik
+INFO  2021-07-18 17:11:51 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: ddwq
+INFO  2021-07-18 17:11:52 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: ewewq
+INFO  2021-07-18 17:11:53 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: ewqewq
+INFO  2021-07-18 17:12:08 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:12:08 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:12:08 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:12:15 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: eweq
+INFO  2021-07-18 17:12:16 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: wq
+INFO  2021-07-18 17:12:18 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:12:18 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь nik
+INFO  2021-07-18 17:12:18 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:12:18 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент nik отключился
+INFO  2021-07-18 17:12:32 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /nik bob bob1
+INFO  2021-07-18 17:12:32 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:12:32 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob1
+INFO  2021-07-18 17:12:36 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: ff
+INFO  2021-07-18 17:12:37 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:12:37 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob1
+INFO  2021-07-18 17:12:37 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:12:37 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob1 отключился
+INFO  2021-07-18 17:13:59 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:13:59 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:13:59 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob1
+INFO  2021-07-18 17:14:05 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /nik bob1 bob
+INFO  2021-07-18 17:14:05 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob1
+INFO  2021-07-18 17:14:05 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:14:10 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: eee
+INFO  2021-07-18 17:14:11 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:14:12 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:14:12 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:14:12 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:14:31 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:14:31 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:14:31 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:14:38 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /nik bob bob1
+INFO  2021-07-18 17:14:38 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:14:38 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob1
+INFO  2021-07-18 17:14:40 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:14:40 [pool-2-thread-3] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob1
+INFO  2021-07-18 17:14:40 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:14:40 [pool-2-thread-3] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob1 отключился
+INFO  2021-07-18 17:17:51 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:17:51 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:17:51 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob1
+INFO  2021-07-18 17:17:52 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:17:52 [pool-2-thread-4] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob1
+INFO  2021-07-18 17:17:52 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:17:52 [pool-2-thread-4] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob1 отключился
+INFO  2021-07-18 17:21:02 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 17:21:02 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 17:21:17 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:21:17 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:21:17 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob1
+INFO  2021-07-18 17:21:21 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /nik bob1 bob
+INFO  2021-07-18 17:21:21 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob1
+INFO  2021-07-18 17:21:21 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:21:23 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: k
+INFO  2021-07-18 17:21:26 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:21:26 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:21:26 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:21:26 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:23:45 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 17:23:45 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 17:24:02 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:24:02 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:24:02 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:24:05 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:24:05 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:24:05 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:24:05 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:24:39 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:24:39 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:24:39 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:24:44 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:24:44 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:24:44 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:24:44 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:25:14 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:25:14 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:25:14 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:25:49 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:25:49 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:25:49 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:25:49 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:30:03 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 17:30:03 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 17:30:23 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:30:23 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:30:23 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:30:26 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: fdhsf
+INFO  2021-07-18 17:30:27 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: djmwqwq
+INFO  2021-07-18 17:30:29 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:30:29 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:30:29 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:30:29 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:31:59 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:31:59 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:31:59 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:32:01 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:32:01 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:32:01 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:32:01 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:34:28 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2021-07-18 17:34:28 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2021-07-18 17:34:44 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:34:44 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:34:44 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:34:51 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:34:51 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:34:51 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:34:51 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2021-07-18 17:35:07 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:35:07 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:35:07 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:35:11 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /nik bob bob1
+INFO  2021-07-18 17:35:11 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:35:11 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob1
+INFO  2021-07-18 17:35:13 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:35:13 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob1
+INFO  2021-07-18 17:35:13 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:35:13 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob1 отключился
+INFO  2021-07-18 17:35:28 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:35:28 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:35:28 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob1
+INFO  2021-07-18 17:35:30 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: 1212d
+INFO  2021-07-18 17:35:31 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: 122
+INFO  2021-07-18 17:35:32 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: 122
+INFO  2021-07-18 17:35:33 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:35:33 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob1
+INFO  2021-07-18 17:35:33 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:35:33 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob1 отключился
+INFO  2021-07-18 17:36:02 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2021-07-18 17:36:02 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2021-07-18 17:36:02 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob1
+INFO  2021-07-18 17:36:05 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: fff
+INFO  2021-07-18 17:36:09 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /nik bob1 bob
+INFO  2021-07-18 17:36:09 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob1
+INFO  2021-07-18 17:36:09 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2021-07-18 17:36:12 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2021-07-18 17:36:12 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2021-07-18 17:36:12 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2021-07-18 17:36:12 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2023-02-28 12:22:17 [main] ru.geekbrains.june.chat.server.BDAuthenticationProvider (BDAuthenticationProvider.java:54) - Установлено соединение с БД
+INFO  2023-02-28 12:22:17 [main] ru.geekbrains.june.chat.server.Server (Server.java:37) - Сервер запущен. Ожидаем подключение клиентов.
+INFO  2023-02-28 12:22:59 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2023-02-28 12:22:59 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth 1 1
+INFO  2023-02-28 12:23:16 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob 123
+INFO  2023-02-28 12:23:26 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob 111
+INFO  2023-02-28 12:23:33 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob 100
+INFO  2023-02-28 12:27:02 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob 123
+INFO  2023-02-28 12:27:23 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob 123
+INFO  2023-02-28 12:27:33 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth olga 1474
+INFO  2023-02-28 12:27:43 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth nik 1452
+INFO  2023-02-28 12:27:58 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth jeck sout1
+INFO  2023-02-28 12:33:44 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth bob@mail.ru 123
+INFO  2023-02-28 12:33:44 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь bob
+INFO  2023-02-28 12:34:02 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: gfdgfdd
+INFO  2023-02-28 12:34:52 [main] ru.geekbrains.june.chat.server.Server (Server.java:42) - Подключился новый клиент
+INFO  2023-02-28 12:34:52 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:104) - Клиент прислал сообщение: /auth olga@mail.ru 1474
+INFO  2023-02-28 12:34:52 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:66) - В чат зашел пользователь olga
+INFO  2023-02-28 12:35:10 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: Привет
+INFO  2023-02-28 12:35:26 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /w bob Привет
+INFO  2023-02-28 12:36:05 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: глгнлнг
+INFO  2023-02-28 12:36:31 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2023-02-28 12:36:31 [pool-2-thread-1] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь bob
+INFO  2023-02-28 12:36:32 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2023-02-28 12:36:32 [pool-2-thread-1] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент bob отключился
+INFO  2023-02-28 12:36:52 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:59) - Клиент прислал сообщение: /exit
+INFO  2023-02-28 12:36:52 [pool-2-thread-2] ru.geekbrains.june.chat.server.Server (Server.java:76) - Из чата вышел пользователь olga
+INFO  2023-02-28 12:36:52 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:173) - Соединение с базой данных закрыто
+INFO  2023-02-28 12:36:52 [pool-2-thread-2] ru.geekbrains.june.chat.server.ClientHandler (ClientHandler.java:54) - Клиент olga отключился

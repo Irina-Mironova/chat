@@ -1,0 +1,27 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="center" xmlns="http://javafx.com/javafx/8.0.211" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ru.geekbrains.june.chat.client.Controller">
+    <Label fx:id="labelUser" text="Введите имя пользователя и пароль:"/>
+    <HBox fx:id="authPanel">
+        <TextField promptText="Введите имя пользователя" fx:id="loginField" HBox.hgrow="ALWAYS"
+                   onAction="#tryToAuth"/>
+        <PasswordField promptText="Введите пароль" fx:id="passwordField" HBox.hgrow="ALWAYS" onAction="#tryToAuth"/>
+        <Button onAction="#tryToAuth">Подключиться</Button>
+    </HBox>
+    <HBox fx:id="nikPanel" visible="false" managed="false">
+        <TextField promptText="Введите новый ник" fx:id="newNikField"/>
+        <Button onAction="#sendNewNik">Сменить ник</Button>
+    </HBox>
+    <HBox VBox.vgrow="ALWAYS">
+        <TextArea fx:id="chatArea" editable="false" HBox.hgrow="ALWAYS"/>
+        <ListView onMouseClicked="#clientsListDoubleClick" fx:id="clientsListView" visible="false" managed="false"
+                  minWidth="180" maxWidth="180"/>
+    </HBox>
+
+    <HBox fx:id="msgPanel" visible="false" managed="false">
+        <TextField promptText="Введите сообщение" fx:id="messageField" HBox.hgrow="ALWAYS" onAction="#sendMessage"/>
+        <Button onAction="#sendMessage">Отправить</Button>
+    </HBox>
+</VBox>

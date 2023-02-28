@@ -1,0 +1,3 @@
+# Project exclude paths
+/june.chat.client/target/
+/june.chat.server/target/
